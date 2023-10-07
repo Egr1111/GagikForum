@@ -1,0 +1,195 @@
+{% load static %}
+{% load compress %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %}</title>
+    {% compress css %}
+    <link rel="stylesheet" href="{% static "main/css/index.css" %}">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9' crossorigin='anonymous' />
+    {% endcompress %}
+</head>
+
+<body>
+    <header class="bg-white py-1 shadowed">
+        <div class="container">
+            <div class="row col-lg-3 col-md-4 col justify-content-start align-items-center text-center">
+                <a href="{% url "index" %}">
+                <div class="col-12">НАРОДНАЯ ДУМА</div>
+                <div class="row justify-content-center align-items-center">
+                    <img src="{% static "main/img/logo-pyramid.png" %}" class="col-4">
+                    <div class="col-4 logo">КСГ</div>
+                    <img src="" class="col-4">
+                </div>
+                <div class="col-12">КЛУБ САМОЗАНЯТЫХ ГРАЖДАН</div>
+            </a>
+            </div>
+        </div>
+    </header>
+    {% if request.path == "/" %}
+        <div class="content picture g-2">
+    {% else %}
+        <div class="content g-2">
+    {% endif %}
+    
+        <div class="container-md container-fluid justify-content-between align-items-center p-md-5 p-0">
+            <div class="row justify-content-between align-items-start">
+                <div
+                    class="row col-lg-3 col-md-4 d-md-flex d-none justify-content-center align-items-center left-column">
+                    <form class="p-0 m-0" method="POST">
+                        <input class="form-control bg-transparent" type="text" placeholder="Поиск по сайту">
+                    </form>
+                    <div class="row justify-content-center align-items-center items p-0 m-4 g-2">
+                        {% for i in menu %}
+                        <div class="row column-item m-0 p-0">
+                            {% for key, value in i.items %}
+                            {% if value.url == request.path %}
+                            <div class="row column-item-shell open m-0 p-0">
+                                {% else %}
+                                <div class="row column-item-shell m-0 p-0">
+                                    {% endif %}
+
+                                    <a class="item col" href="{{value.url}}">{{key}}</a>
+
+
+                                    {% if value.subclass != null %}
+                                    <div class="col-2 item-point"></div>
+                                </div>
+                                {% for key2, value2 in value.subclass.items %}
+                                <div class="row column-item p-0 m-0 d-none">
+                                    {% if value2.url == request.path %}
+                                    <div class="row column-item-shell open m-0 p-0">
+                                        {% else %}
+                                        <div class="row column-item-shell m-0 p-0">
+                                            {% endif %}
+                                            <a class="item col" href="{{value2.url}}">{{key2}}</a>
+
+                                            {% if value2.subclass != null %}
+                                            <div class="col-2 item-point"></div>
+                                        </div>
+                                        {% for key3, value3 in value2.subclass.items %}
+                                        <div class="row column-item p-0 m-0 d-none">
+                                            {% if value3.url == request.path %}
+                                            <div class="row column-item-shell open m-0 p-0">
+                                                {% else %}
+                                                <div class="row column-item-shell m-0 p-0">
+                                                    {% endif %}
+                                                    <a class="item col" href="{{value3.url}}">{{key3}}</a>
+                                                </div>
+                                            </div>
+                                            {% endfor %}
+                                            {% else %}
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                    {% endfor %}
+                                    {% else %}
+                                </div>
+                                {% endif %}
+
+                                {% endfor %}
+
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                <div class="row col-lg-9 col-md-8 col-12 justify-content-center main p-0 m-0 g-2">
+                    <div class="row justify-content-between main-header text-white text-center">
+                        <div class="col align-self-center">
+                            <div class="people-icon d-md-none"></div>
+                            <span class="fw-bolder d-md-inline d-none">Участников:</span>
+                            <span>{{users.count}}</span>
+                        </div>
+
+                        <div class="col d-flex align-items-center flex-nowrap">
+                            {% if user.is_authenticated %}
+                            <a class="btn btn-text text-nowrap text-white" href="{% url "profile" %}">
+                                {% if user.image != "Users/no-image.svg" %}
+                                <img class="col" src="/media/{{user.image}}" style="width: 40px" alt="">
+                                {% else %}
+                                <svg class="col" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"
+                                    xml:space="preserve" class="col"  width="40px" version="1.1"
+                                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd">
+                                    <path fill="#999"
+                                        d="M34 25l0 1c-10,0 -24,-2 -24,4l0 46c0,2 2,4 5,4l70 0c3,0 5,-2 5,-4l0 -46c0,-6 -13,-4 -24,-4 0,-11 -12,-8 -25,-8 -4,0 -7,3 -7,7z" />
+                                    <path fill="#fff" d="M29 53c0,-21 27,-29 38,-12 18,26 -24,48 -36,21 -1,-2 -2,-6 -2,-9z" />
+                                    <path fill="#999" d="M36 52c0,22 28,18 28,2 0,-22 -28,-18 -28,-2z" />
+                                </svg>
+                                {% endif %}
+                            </a>
+                            <a class="btn btn-text text-white"  style="width:fit-content" href="{% url "profile" %}">
+                                <span>{{user.username}}</span>
+                            </a>
+                            <span>/</span>
+                            <a class="btn btn-text text-nowrap text-white" href="{% url "logout" %}">
+                                <div class="exit-icon"></div>
+                            </a>
+                            
+
+                            {% else %}
+                            <a class="btn btn-text text-nowrap text-white" href="{% url "login" %}">
+                                <div class="login-icon"></div>
+                                <span>Вход</span>
+                            </a>
+                            <span>/</span>
+                            <a class="btn btn-text text-white" href="{% url "reg" %}">
+                                <span>Регистрация</span>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% block content %}{% endblock content %}
+                </div>
+
+            </div>
+        </div>
+</div>
+        <footer class="bg-white py-3 mt-2">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col text-center">
+                        <nav>
+                            <ul class="nav smallsm justify-content-center">
+                                <li class="nav-item">
+                                    <a href="http://gagikforum.ru/rules" class="nav-link">Правила</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="http://gagikforum.ru/policy" class="nav-link">Политика
+                                        конфиденциальности</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div>Использование идей, новых терминов, цитат - ссылка&nbsp;на&nbsp;наш сайт&nbsp;обязательна
+                        </div>
+                        <div>
+                            <span>Гагик Форум</span>
+                            <span>©</span>
+                            <span>КСГ</span>
+                            <span>2023</span>
+                            <span>Все права защищены</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+{% compress jsinline %}
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js'
+    integrity='sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm'
+    crossorigin='anonymous'></script>
+<script src="{% static "main/js/script.js" %}"></script>
+
+
+<script src='https://code.jquery.com/jquery-3.7.0.js' integrity='sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=' crossorigin='anonymous'></script>
+<script src="{% static "main/js/jQuery.Marquee-master/jquery.marquee.min.js" %}"></script>
+<script src="{% static "main/js/jqScript.js" %}"></script>
+{% endcompress %}
+
+</html>

@@ -1,0 +1,874 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "phonenumber_field.modelfields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "phonenumber_field.modelfields",
+        "description": "phonenumber_field.modelfields",
+        "detail": "phonenumber_field.modelfields",
+        "documentation": {}
+    },
+    {
+        "label": "PhoneNumberField",
+        "importPath": "phonenumber_field.modelfields",
+        "description": "phonenumber_field.modelfields",
+        "isExtraImport": true,
+        "detail": "phonenumber_field.modelfields",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PhoneNumberField",
+        "importPath": "phonenumber_field.formfields",
+        "description": "phonenumber_field.formfields",
+        "isExtraImport": true,
+        "detail": "phonenumber_field.formfields",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "django.shortcuts",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModelForm",
+        "importPath": "django.forms.models",
+        "description": "django.forms.models",
+        "isExtraImport": true,
+        "detail": "django.forms.models",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserPassesTestMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.asgi",
+        "description": "gagikForum.gagikForum.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "gagikForum.gagikForum.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nPROJECT_DIR = os.path.dirname(os.path.realpath(__file__))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_DIR",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nDATE_INPUT_FORMATS = ['%d-%m-%Y']",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nDATE_INPUT_FORMATS = ['%d-%m-%Y']\nAUTH_USER_MODEL = 'main.User'\nLOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nDATE_INPUT_FORMATS = ['%d-%m-%Y']\nAUTH_USER_MODEL = 'main.User'\nLOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nDATE_INPUT_FORMATS = ['%d-%m-%Y']\nAUTH_USER_MODEL = 'main.User'\nLOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nDATE_INPUT_FORMATS = ['%d-%m-%Y']\nAUTH_USER_MODEL = 'main.User'\nLOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATE_INPUT_FORMATS",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "DATE_INPUT_FORMATS = ['%d-%m-%Y']\nAUTH_USER_MODEL = 'main.User'\nLOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'main.User'\nLOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "LOGIN_URL = \"/login\"\nLOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/\"\nSTATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(MEDIA_ROOT, \"Users\")\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'phonenumber_field',\n    'compressor',\n    'main',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'gagikForum.urls'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "ROOT_URLCONF = 'gagikForum.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'gagikForum.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'ru'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(PROJECT_DIR, '../static')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(PROJECT_DIR, '../static')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(PROJECT_DIR, '../static')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(PROJECT_DIR, '../static')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(PROJECT_DIR, '../static')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(PROJECT_DIR, '../static')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.settings",
+        "description": "gagikForum.gagikForum.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gagikForum.gagikForum.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.urls",
+        "description": "gagikForum.gagikForum.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('main.urls'))\n] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,\n                                                                             document_root=settings.MEDIA_ROOT)",
+        "detail": "gagikForum.gagikForum.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gagikForum.gagikForum.wsgi",
+        "description": "gagikForum.gagikForum.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "gagikForum.gagikForum.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gagikForum.main.migrations.0001_initial",
+        "description": "gagikForum.main.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "gagikForum.main.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gagikForum.main.migrations.0002_alter_user_code_word_alter_user_country_and_more",
+        "description": "gagikForum.main.migrations.0002_alter_user_code_word_alter_user_country_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('main', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='user',\n            name='code_word',\n            field=models.CharField(default='P7EZ', max_length=255, verbose_name='Кодовое слово'),\n        ),",
+        "detail": "gagikForum.main.migrations.0002_alter_user_code_word_alter_user_country_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gagikForum.main.migrations.0003_alter_user_code_word_alter_user_image",
+        "description": "gagikForum.main.migrations.0003_alter_user_code_word_alter_user_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('main', '0002_alter_user_code_word_alter_user_country_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='user',\n            name='code_word',\n            field=models.CharField(default='0DRZ', max_length=255, verbose_name='Кодовое слово'),\n        ),",
+        "detail": "gagikForum.main.migrations.0003_alter_user_code_word_alter_user_image",
+        "documentation": {}
+    },
+    {
+        "label": "MainConfig",
+        "kind": 6,
+        "importPath": "gagikForum.main.apps",
+        "description": "gagikForum.main.apps",
+        "peekOfCode": "class MainConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'main'",
+        "detail": "gagikForum.main.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreateForm",
+        "kind": 6,
+        "importPath": "gagikForum.main.forms",
+        "description": "gagikForum.main.forms",
+        "peekOfCode": "class UserCreateForm(UserCreationForm):\n    username = CharField(\n        label=\"Введите свой псевдоним\",\n        max_length=255,\n        widget=TextInput(\n            attrs={\n                \"class\": \"form-control col-xxl-3 col-lg-5 col-md-8 col-sm-12\",\n            }\n        ),\n    )",
+        "detail": "gagikForum.main.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginForm",
+        "kind": 6,
+        "importPath": "gagikForum.main.forms",
+        "description": "gagikForum.main.forms",
+        "peekOfCode": "class UserLoginForm(AuthenticationForm):\n    username = CharField(\n        label=\"Введите свой псевдоним\",\n        max_length=255,\n        widget=TextInput(\n            attrs={\n                \"class\": \"form-control col-xxl-3 col-lg-5 col-md-8 col-sm-12\",\n            }\n        ),\n    )",
+        "detail": "gagikForum.main.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserForm",
+        "kind": 6,
+        "importPath": "gagikForum.main.forms",
+        "description": "gagikForum.main.forms",
+        "peekOfCode": "class UserForm(ModelForm):\n    username = CharField(\n        label=\"Введите свой псевдоним\",\n        max_length=255,\n        widget=TextInput(\n            attrs={\n                \"class\": \"form-control col-xxl-3 col-lg-5 col-md-8 col-sm-12\",\n            }\n        ),\n    )",
+        "detail": "gagikForum.main.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "gagikForum.main.models",
+        "description": "gagikForum.main.models",
+        "peekOfCode": "class User(AbstractUser):\n    image = models.ImageField(upload_to=\"Users\", default=\"Users/no-image.svg\", verbose_name=\"Фото\", null=True)\n    wasBorn = models.DateField(verbose_name=\"Дата рождения\", null=True)\n    # rang = models.ManyToManyField(\"Rang\", blank=True, related_name=\"rang\", verbose_name=\"Роль\")\n    my_story = models.TextField(verbose_name=\"Об авторе\", null=True)\n    gender = models.CharField(max_length=255, choices=GENDER_CHOICE, verbose_name=\"Гендер\")\n    education = models.CharField(max_length=255, choices=EDUCATION_CHOICE, verbose_name=\"Образование\")\n    phone_number = PhoneNumberField(verbose_name = 'Номер телефона')\n    code_word = models.CharField(max_length=255, verbose_name=\"Кодовое слово\", default=''.join(random.choices(string.ascii_uppercase + string.digits, k=4)))\n    country = models.CharField(max_length=255, verbose_name=\"Страна\", null=True)",
+        "detail": "gagikForum.main.models",
+        "documentation": {}
+    },
+    {
+        "label": "GENDER_CHOICE",
+        "kind": 5,
+        "importPath": "gagikForum.main.models",
+        "description": "gagikForum.main.models",
+        "peekOfCode": "GENDER_CHOICE = ((\"Male\", \"М\"), (\"Woman\", \"Ж\"))\nEDUCATION_CHOICE = (\n    (\"1\", \"Дошкольное\"),\n    (\"2\", \"Начальное общее — 1—4 классы\"),\n    (\"3\", \"Основное общее — 5—9 классы\"),\n    (\"4\", \"Среднее общее — 10—11 классы\"),\n    (\"5\", \"Среднее профисеональное\"),\n    (\"6\", \"Высшее I степени — бакалавриат\"),\n    (\"7\", \"Высшее II степени — специалитет, магистратура\"),\n    (\"8\", \"Высшее III степени — подготовка кадров высшей квалификации\")",
+        "detail": "gagikForum.main.models",
+        "documentation": {}
+    },
+    {
+        "label": "EDUCATION_CHOICE",
+        "kind": 5,
+        "importPath": "gagikForum.main.models",
+        "description": "gagikForum.main.models",
+        "peekOfCode": "EDUCATION_CHOICE = (\n    (\"1\", \"Дошкольное\"),\n    (\"2\", \"Начальное общее — 1—4 классы\"),\n    (\"3\", \"Основное общее — 5—9 классы\"),\n    (\"4\", \"Среднее общее — 10—11 классы\"),\n    (\"5\", \"Среднее профисеональное\"),\n    (\"6\", \"Высшее I степени — бакалавриат\"),\n    (\"7\", \"Высшее II степени — специалитет, магистратура\"),\n    (\"8\", \"Высшее III степени — подготовка кадров высшей квалификации\")\n)",
+        "detail": "gagikForum.main.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "gagikForum.main.urls",
+        "description": "gagikForum.main.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name = \"index\"),\n    path(\"reg\", views.Reg.as_view(), name = \"reg\"),\n    path(\"login\", views.Login.as_view(), name = \"login\"),\n    path(\"logout\", views.LogoutView.as_view(), name = \"logout\"),\n    path(\"profile\", views.profile, name = \"profile\"),\n]",
+        "detail": "gagikForum.main.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Reg",
+        "kind": 6,
+        "importPath": "gagikForum.main.views",
+        "description": "gagikForum.main.views",
+        "peekOfCode": "class Reg(CreateView):\n    template_name = \"main/enter.html\"\n    form_class = UserCreateForm\n    success_url = reverse_lazy(\"login\")\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        context[\"menu\"] = menu\n        context[\"users\"] = users\n        return context\nclass Login(LoginView):",
+        "detail": "gagikForum.main.views",
+        "documentation": {}
+    },
+    {
+        "label": "Login",
+        "kind": 6,
+        "importPath": "gagikForum.main.views",
+        "description": "gagikForum.main.views",
+        "peekOfCode": "class Login(LoginView):\n    template_name = \"main/login.html\"\n    form_class = UserLoginForm\n    success_url = reverse_lazy(\"index\")\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        context[\"menu\"] = menu\n        context[\"users\"] = users\n        return context\n@login_required",
+        "detail": "gagikForum.main.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "gagikForum.main.views",
+        "description": "gagikForum.main.views",
+        "peekOfCode": "def index(request):\n    return render(request, \"main/index.html\", {\"menu\": menu, \"users\": users})\nclass Reg(CreateView):\n    template_name = \"main/enter.html\"\n    form_class = UserCreateForm\n    success_url = reverse_lazy(\"login\")\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        context[\"menu\"] = menu\n        context[\"users\"] = users",
+        "detail": "gagikForum.main.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "gagikForum.main.views",
+        "description": "gagikForum.main.views",
+        "peekOfCode": "def profile(request):\n    error = \"\"\n    if request.method == \"POST\":\n        form = UserForm(request.POST, request.FILES, instance=request.user)\n        if form.is_valid():\n            form.save()\n            return redirect(\"index\")\n    else:\n        form = UserForm(instance=request.user)\n    return render(request, \"main/profile.html\", {\"menu\": menu, \"users\": users, \"form\": form})",
+        "detail": "gagikForum.main.views",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 5,
+        "importPath": "gagikForum.main.views",
+        "description": "gagikForum.main.views",
+        "peekOfCode": "menu = [\n        {\"Главная\": {\"url\": \"/\", \"subclass\": None}},\n        {\"Отзывы и предложения\": {\"url\": \"/review/\", \"subclas\": None}},\n        {\n            \"Конкурсы\": {\n                \"url\": \"/contests/\",\n                \"subclass\": {\n                    \"Конкурс ведущих\": {\n                        \"url\": \"/contests/ved\",\n                        \"subclass\": {\"Аудио\": {\"url\": \"/contests/ved/audio/\"}},",
+        "detail": "gagikForum.main.views",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "gagikForum.main.views",
+        "description": "gagikForum.main.views",
+        "peekOfCode": "users = User.objects.all()\n# Create your views here.\ndef index(request):\n    return render(request, \"main/index.html\", {\"menu\": menu, \"users\": users})\nclass Reg(CreateView):\n    template_name = \"main/enter.html\"\n    form_class = UserCreateForm\n    success_url = reverse_lazy(\"login\")\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)",
+        "detail": "gagikForum.main.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "gagikForum.manage",
+        "description": "gagikForum.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gagikForum.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "gagikForum.manage",
+        "documentation": {}
+    }
+]

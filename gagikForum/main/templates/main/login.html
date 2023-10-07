@@ -1,0 +1,31 @@
+{% extends "main/shablon.html" %} 
+{% block title %}Авторизация{% endblock title %} 
+{% block content %}
+<div class="row justify-content-md-start justify-content-center align-items-center">
+  <div class="row align-items-center text-white col-lg-6 col-12 g-2">
+    <div class="row justify-content-center align-items-center text p-0 m-0">
+        <h1 class="title text-shadow p-0">Авторизация</h1>
+    </div>
+    <form
+      method="POST"
+      class="row justify-content-center align-content-around bg-white text-black shadow form g-2 p-2 m-0"
+    >
+    <h1 class="title p-0">Заполните все поля</h1>
+    {% csrf_token %}
+      {{form.as_p}}
+      <div class="row justify-content-center align-items-center g-2">
+        <button type="submit" class="btn btn-lg btn-block button rounded-pill">
+                Войти
+              </button>
+      </div>
+      <div class="row justify-content-center align-items-center g-2">
+        <a type="button" class="text-decoration-underline">
+                Забыли пароль?
+        </a>
+      </div>
+      
+      
+    </form>
+  </div>
+</div>
+{% endblock content %}

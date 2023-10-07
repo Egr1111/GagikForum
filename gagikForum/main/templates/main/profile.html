@@ -1,0 +1,28 @@
+{% extends "main/shablon.html" %}
+{% block title %}Профиль {{user.username}}{% endblock title %}
+{% block content %}
+<div class="row justify-content-md-start justify-content-center align-items-center">
+  <div class="row align-items-center text-white col-lg-6 col-12 g-2">
+    <div class="row justify-content-center align-items-center text p-0 m-0">
+        <h1 class="title text-shadow p-0">Профиль {{user.username}}</h1>
+        <div class="text-shadow p-0" style="font-size:larger;">
+        Вы можете просмотреть данные своего профиля и изменить некоторые из них
+        </div>
+    </div>
+    <form
+      method="POST"
+      class="row justify-content-center align-content-around bg-white text-black shadow form g-2 p-2 m-0"
+        enctype="multipart/form-data"
+      >
+    {% csrf_token %}
+    {{form.as_p}}
+    <div class="row justify-content-center align-items-center g-2">
+        <button type="submit" class="btn btn-lg btn-block button rounded-pill">
+                Сохранить
+        </button>
+    </div>
+    </form>
+  </div>
+</div>
+
+{% endblock content %}

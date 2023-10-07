@@ -1,0 +1,73 @@
+{% extends "main/shablon.html" %}
+{% load static %}
+
+{% block title %}Школьный Форум{% endblock title%}
+{% block content %}
+<div class="row text-center justify-content-around align-items-center text-white spinning-text g-2">
+    <div class="marquee row flex-nowrap justify-content-around align-items-center">
+        <div class="row justify-content-around align-items-center spin-item h3 ">
+            <div class="col">Добра и мира Вашему дому!</div>
+            <div class="col">Ни шагу назад!</div>
+            <div class="col">Доброта спасет мир</div>
+            <div class="col">Поздравляем с Новым Годом всех рожденных 24
+                сентября. Желаем Всем здоровья, счастья, смысла жизни и удачи...</div>
+        </div>
+    </div>
+</div>
+
+<div class="row align-items-center justify-content-center justify-content-md-between flex-md-nowrap text-center text-white">
+    <div class="col col-sm-auto">
+        <img class="shadowed p-2 bg-white bg-opacity-50 rounded-circle" width="120"
+            src="{% static "main/img/logo-pyramid.png" %}" alt="">
+    </div>
+    <div class="col-sm order-2 order-sm-1">
+        <h1 class="title p-0 my-5 text-uppercase">Школьный форум</h1>
+    </div>
+    {% comment %} <div class="col col-sm-auto order-1 order-sm-2">
+        <img class="shadowed p-2 bg-white bg-opacity-50 rounded-circle" width="120"
+            src="" alt="">
+    </div> {% endcomment %}
+</div>
+<div class="row justify-content-center align-items-center text-center text-white ">
+    <h4 class="text-shadow">Театр поэзии</h4>
+    <h1 class="text-shadow title text-uppercase mb-5 " id="title-index-1">Покорители Парнаса</h1>
+
+    <h4 class="text-shadow">КСГ - Клуб самозанятых граждан</h4>
+    <h1 class="text-shadow title text-uppercase mb-5 " id="title-index-2">Народная дума</h1>
+</div>
+<div class="row justify-content-center align-items-center text-white g-5">
+    <div class="col fw-light fs-5">Использование идей, новых терминов, цитат - ссылка на наш сайт обязательна</div>
+</div>
+
+<div class="my-3">
+    <h3 class="title text-center text-md-start text-white">Последние новости</h3>
+    <section class="card rounded shadow my-4">
+        <div class="card-body py-2">
+            <div>Благодаря нашему конкурсанту №1 - Алексею Баширову, &nbsp;у нас появилась возможность испытать себя в
+                новой профессии - КАРАОКЕ_ЧТЕНИИ.. &nbsp;Огромное спасибо ему...&nbsp;</div>
+        </div>
+        <footer class="card-footer py-1">
+            <div class="row">
+                <div class="col-md">
+                    <a href="http://gagikforum.ru/p/587f7aec-a402-4fad-8a90-eb0a6979636e">
+                        <div class="icon-eye"></div>
+                        <span>Просмотр</span>
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <div class="text-nowrap">19.11.2021 07:08</div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    
+
+</div>
+<div class="mb-4">
+    <a href="" class="btn rounded-pill button">
+        <span>Смотреть все новости</span>
+        <div class="icon-right"></div>
+    </a>
+</div>
+{% endblock content %}
